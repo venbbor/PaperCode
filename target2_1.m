@@ -1,0 +1,57 @@
+cr=5000;
+K = 3;
+M(K) = 0;
+M(1) = 6;
+M(2) = 3;
+M(3) = 2;
+signature = zeros(M(1)+1,M(2)+1,M(3)+1);
+signature(4,4,2) = 1/20;
+signature(4,4,1) = 1/20;
+signature(4,3,2) = 1/20;
+signature(4,3,1) = 1/20;
+signature(4,2,2) = 1/20;
+signature(4,2,1) = 1/20;
+signature(4,1,2) = 1/20;
+signature(4,1,1) = 1/20;
+signature(3,4,2) = 1/5;
+signature(3,4,1) = 1/5;
+signature(3,3,3) = 1/15;
+signature(3,3,2) = 1/3;
+signature(3,3,1) = 1/3;
+signature(3,2,3) = 1/15;
+signature(3,2,2) = 1/3;
+signature(3,2,1) = 1/3;
+signature(3,1,3) = 1/15;
+signature(3,1,2) = 1/3;
+signature(3,1,1) = 1/3;
+signature(2,4,3) = 1/6;
+signature(2,4,2) = 1/2;
+signature(2,4,1) = 1/2;
+signature(2,3,3) = 1/2;
+signature(2,3,2) = 2/3;
+signature(2,3,1) = 2/3;
+signature(2,2,3) = 1/2;
+signature(2,2,2) = 2/3;
+signature(2,2,1) = 2/3;
+signature(2,1,3) = 1/2;
+signature(2,1,2) = 2/3;
+signature(2,1,1) = 2/3;
+signature(1,4,3) = 1;
+signature(1,4,2) = 1;
+signature(1,4,1) = 1;
+signature(1,3,3) = 1;
+signature(1,3,2) = 1;
+signature(1,3,1) = 1;
+signature(1,2,3) = 1;
+signature(1,2,2) = 1;
+signature(1,2,1) = 1;
+signature(1,1,3) = 1;
+signature(1,1,2) = 1;
+signature(1,1,1) = 1;
+answer = zeros(1,300);
+for t = 1:300
+    answer(1,t) = cr/failureTime(1,t);
+end
+
+
+

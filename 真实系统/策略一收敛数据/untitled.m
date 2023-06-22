@@ -1,0 +1,29 @@
+plot(1:45,Convergence_curve,'-*k','LineWidth',1.2,'MarkerIndices',[1 2 8 9 ...
+    13 14 15 16 17 20 21 25 26 27 28 29 32 33 35 45]);
+hold on;
+plot(1:39,Convergence_curve,'-^r','LineWidth',1.2,'MarkerIndices',[1 2 3 4 ...
+    5 6 7 8 10 11 12 13 14 15 18 19 20 21 22 25 26 28 29 39]);
+
+
+plot(1:58,Convergence_curve,'-*k','LineWidth',1.2,'MarkerIndices',[1 2 3 4 5 6 7 8 9 ...
+    10 11 12 13 14 17 18 19 20 21 ...
+    23 24 25 26 29 30 33 34 35 37 38 39 40 ...
+    41 43 45 46 47 48 49 58]);
+hold on;
+plot(1:36,Convergence_curve,'-^r','LineWidth',1.2,'MarkerIndices',[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 ...
+    18 20 21 25 26 35]);
+
+
+
+plot(1:41,Convergence_curve,'-*k','LineWidth',1.2,'MarkerIndices',[1 2 3 4 5 6 7 9 10 ...
+    11 12 14 15 16 18 19 20 21 23 24 30 31 41]);
+hold on;
+plot(1:29,Convergence_curve,'-^r','LineWidth',1.2,'MarkerIndices',[1 2 3 4 5 6 7 8 9 10 ...
+    11 12 13 14 15 16 17 18 19 29]);
+
+
+
+plot(1:34,Convergence_curve,'-*k','LineWidth',1.2,'MarkerIndices',[1 2 3 4 6 7 8 9 ...
+    14 15 17 18 20 21 23 24 34]);
+hold on;
+plot(1:26,Convergence_curve,'-^r','LineWidth',1.2,'MarkerIndices',[1 2 3 4 5 6 7 9 10 11 12 13 15 16 26]);
